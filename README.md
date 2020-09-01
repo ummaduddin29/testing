@@ -29,12 +29,12 @@ animation-name: animations;
 animation-duration: 2s;
 }
 
-h1.white1
+h3.white1
 {
 color: #ffffff;
 }
 
-h5.white2
+h3.white2
 {
 color: #ffffff;
 }
@@ -43,8 +43,8 @@ color: #ffffff;
 </head>
 <body>
 
-<h5 class="white2" >Click Image To Colorize</h5>
-<h5 class="white2" >Picture will go back to black and white in 5 seconds</h5>
+<h3 class="white2" >Click Image To Colorize</h3>
+<h3 class="white2" >Picture will go back to black and white in 5 seconds</h3>
 <img class="test" src="6be753e3-6f5b-46d1-97a9-cf82e1b2b7f1 (2).jpg" alt="image">
 
 </body>
