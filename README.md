@@ -1,6 +1,11 @@
 <!DOCTYPE html>
 <html>
 <head>
+<script>
+       setTimeout(function(){
+           location.reload();
+       },5000); // 5000 milliseconds means 5 seconds.
+    </script>
 <style>
 body {
  background-color: #000000;
@@ -14,11 +19,8 @@ filter: grayscale(100%)
 
 @keyframes animations
 {
-
-0%% {filter: grayscale(100%);}
-25% {filter: grayscale(0%);}
-75% {filter: grayscale(0%);}
-100% {filter: grayscale(100%);}
+from {filter: grayscale(100%);}
+to {filter: grayscale(0%);}
 }
 
 img.test:hover {
