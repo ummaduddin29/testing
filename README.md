@@ -1,4 +1,3 @@
-# testing
 <!DOCTYPE html>
 <html>
 <head>
@@ -15,8 +14,11 @@ filter: grayscale(100%)
 
 @keyframes animations
 {
-from {filter: grayscale(100%);}
-to {filter: grayscale(0%);}
+
+0%% {filter: grayscale(100%);}
+25% {filter: grayscale(0%);}
+75% {filter: grayscale(0%);}
+100% {filter: grayscale(100%);}
 }
 
 img.test:hover {
