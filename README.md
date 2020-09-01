@@ -29,6 +29,11 @@ height: 500;
 animation-name: animations;
 animation-duration: 2s;
 }
+
+h1.white
+{
+color: #ffffff;
+}
 </style>
 </head>
 <body>
