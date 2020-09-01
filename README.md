@@ -34,12 +34,18 @@ h1.white
 {
 color: #ffffff;
 }
+
+h5.white2
+{
+color: #ffffff;
+}
+
 </style>
 </head>
 <body>
 
-<h3>Click Image To Colorize</h3>
-<h5>Picture will go back black and white in 5 seconds</h5>
+<h3 class="white" >Click Image To Colorize</h3>
+<h5 class="white2" >Picture will go back black and white in 5 seconds</h5>
 <img class="test" src="6be753e3-6f5b-46d1-97a9-cf82e1b2b7f1 (2).jpg" alt="image">
 
 </body>
