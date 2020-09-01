@@ -4,7 +4,7 @@
 <script>
        setTimeout(function(){
            location.reload();
-       },5000); // 5000 milliseconds means 5 seconds.
+       },7000);
     </script>
 <style>
 body {
@@ -33,7 +33,8 @@ animation-duration: 2s;
 </head>
 <body>
 
-
+<h3>Click Image To Colorize</h3>
+<h5>Picture will go back black and white in 5 seconds</h5>
 <img class="test" src="6be753e3-6f5b-46d1-97a9-cf82e1b2b7f1 (2).jpg" alt="image">
 
 </body>
